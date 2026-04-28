@@ -5,16 +5,20 @@ Apply complete! Resources: 21 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-alb_dns_name = "tf-lb-20260428124731216700000005-63604880.us-east-1.elb.amazonaws.com"
+alb_dns_name = "tf-lb-20260428194310732200000005-2073519939.us-east-1.elb.amazonaws.com"
 private_subnet_ids = [
-  "subnet-010503da783221795",
-  "subnet-0d611b4d8d070e270",
+  "subnet-0884dfd80f4a9947b",
+  "subnet-0ac75da6bf88945c9",
 ]
 public_subnet_ids = [
-  "subnet-06d6d7814f3a9e544",
-  "subnet-08cc451815023e24a",
+  "subnet-0fa61ef5da77bd187",
+  "subnet-07a03d5a93ac90042",
 ]
-vpc_id = "vpc-09e95a08366312fb7"
+vpc_id = "vpc-0e2ec961afe040b41"
+
 ```
+
+
+## After opening on browser
 
 ![Terraform Apply Output](images/output.png)
