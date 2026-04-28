@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "akshat-tf-state-bucket"
+    bucket         = "akshat-tf-backend-bucket"
     key            = "quiz/terraform.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "terraform-lock-table"
